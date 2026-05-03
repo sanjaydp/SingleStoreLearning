@@ -26,7 +26,7 @@ WITH final_output AS (
       AND NOT EXISTS (
           SELECT 1 FROM campaign_history ch
           WHERE ch.consumer_id = sp.consumer_id
-            AND ch.campaign_date >= DATE_SUB(CURRENT_DATE(), INTERVAL 50 DAY)
+            AND ch.campaign_date >= DATE_SUB(CURRENT_DATE(), INTERVAL 60 DAY)
       )
 )
 SELECT COUNT(*) AS suppression_leak_count
