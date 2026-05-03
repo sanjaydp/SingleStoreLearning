@@ -1,0 +1,11 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local/editor files
+.vscode/
+.idea/
+
+# Data exports
+*.csv
+*.xlsx
