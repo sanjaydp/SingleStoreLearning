@@ -107,9 +107,3 @@ sql/03_campaign_extraction.sql
 sql/04_waterfall_analysis.sql
 sql/05_validation_checks.sql
 ```
-
-## Interview Explanation
-
-A concise way to explain this project:
-
-> After my first interview, I built a small SingleStore demo to better understand a campaign order-pulling workflow. I created consumer profile, credit attributes, suppression, and campaign history tables. Then I wrote SQL to apply state, credit score, debt range, top-decile, suppression, and recent-contact exclusion logic. I also added waterfall counts and validation checks, including suppression leakage and recent-contact leakage, both returning zero.
