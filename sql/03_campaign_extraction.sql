@@ -6,7 +6,6 @@ WITH scored_population AS (
         cp.first_name,
         cp.last_name,
         cp.state,
-        cp.zip_code,
         ca.credit_score,
         ca.ml_response_score,
         ca.total_debt,
