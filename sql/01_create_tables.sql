@@ -5,6 +5,7 @@ DROP TABLE IF EXISTS suppression_list;
 DROP TABLE IF EXISTS credit_attributes;
 DROP TABLE IF EXISTS consumer_profile;
 
+
 CREATE TABLE consumer_profile (
     consumer_id BIGINT NOT NULL,
     first_name VARCHAR(50),
