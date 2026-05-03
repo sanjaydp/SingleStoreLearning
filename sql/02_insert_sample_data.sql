@@ -10,7 +10,7 @@ INSERT INTO consumer_profile VALUES
 (7,'Michael','Lee','1980-09-14','77 Park St','Orlando','FL','32801','75K-100K'),
 (8,'Sarah','Miller','1992-03-03','88 River St','Austin','TX','73301','50K-75K'),
 (9,'James','Anderson','1975-12-25','99 Elm St','San Jose','CA','95101','150K+'),
-(10,'Anna','Thomas','1987-07-09','11 Maple St','Tampa','FL','33601','75K-100K');
+(10,'Anna','Thomas','1987-07-09','11 Maple St','Tampa','FL','33601','55K-100K');
 
 INSERT INTO credit_attributes VALUES
 (1,720,0.91,15000,6000,210000,12000,CURRENT_DATE()),
